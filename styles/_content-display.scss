@@ -57,13 +57,13 @@
           }
         }
       }
-      &:nth-child(2) {
-        &::after {
-          @include mq($desktop-bp) {
-            width: 2px;
-          }
-        }
-      }
+      // &:nth-child(2) {
+      //   &::after {
+      //     @include mq($desktop-bp) {
+      //        width: 2px;
+      //     }
+      //   }
+      // }
       @include mq($desktop-bp) {
         width: 25%;
         margin: 0;

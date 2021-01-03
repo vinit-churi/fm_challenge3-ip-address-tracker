@@ -13,10 +13,3 @@ $font-family-pr: "Rubik", sans-serif;
     @content;
   }
 }
-
-// TODO
-// .main {
-//   @include mq(230px) {
-//     padding: 2rem;
-//   }
-// }
